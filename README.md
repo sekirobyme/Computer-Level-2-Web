@@ -11,6 +11,8 @@
 ## [计算机组成原理](#computer)
 ## [计算机的存储和运算](#data)
 ## [软件工程](#software)
+## [ASP](#asp)
+## [JSP](#jsp)
 ## [web速记](#web)
 
 
@@ -288,13 +290,26 @@
 - 工具
 - 过程
 
+## <a id="asp">ASP</a>
+>动态服务器网页（英文：Active Server Pages，简称ASP），是由微软公司开发的**服务器端运行**的**脚本平台**，它被Windows下Internet Information Services (**IIS**)的程序所管理。透过ActiveX server的技术让不同的用户能有不同的画面，或需要让他们可以访问服务器（server）上的资料时，使用ASP3.0中提供了五个内置的对象创建模拟和安全性的动态内容，来协助程序员隐藏复杂的沟通机制，让程序员可以专注在解决问题和应用之上，这样可以更快速地开发**动态网页**的同时每一个组件都是可以由一组富有经验的程序员根据动态网页最常用的功能而独立开发。
+
+
+
+## <a id="jsp">JSP</a>
+>JSP（全称Jakarta Server Pages，曾称为JavaServer Pages）是由Sun Microsystems公司主导创建的一种**动态网页技术标准**。**JSP**部署于**网络服务器**上，可以响应客户端发送的请求，并根据请求内容**动态地生成**HTML、XML或其他格式文档的Web网页，然后返回给请求者。JSP技术以**Java**语言作为**脚本语言**，为用户的HTTP请求提供服务，并能与服务器上的其它Java程序共同处理复杂的业务需求。
+
+
+
+
 ## <a id="web">web速记</a>
 - location接口(部分)
 
     |属性|语义|
     |:-:|:-:|
-    |href|包含整个 URL 的一个DOMString|
-    |host|包含了域名的一个DOMString，可能在该串最后带有一个":"并跟上 URL 的端口号|
-    |hostname|包含 URL 域名的一个DOMString|
-    |port|包含端口号的一个DOMString|
-    |pathname|包含 URL 中路径部分的一个DOMString，开头有一个/|
+    |href|包含**整个URL**的一个DOMString|
+    |host|包含了**域名**的一个DOMString，可能在该串最后带有一个":"并跟上 URL 的**端口号**|
+    |hostname|包含**URL域名**的一个DOMString|
+    |port|包含**端口号**的一个DOMString|
+    |pathname|包含 URL 中**路径部分**的一个DOMString，开头有一个/|
+    
+- 
