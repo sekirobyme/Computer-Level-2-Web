@@ -230,7 +230,18 @@
 |504|Gateway Timeout|服务器充当网关且无法及时获得响应|
 |505|HTTP Version Not Supported|服务器不支持请求中使用的 HTTP 版本|
 
-
+### HTTP请求方法
+|方法|语义|
+|:-:|:-:|
+|**GET**|`GET`方法请求一个指定资源的表示形式，使用`GET`的请求应该只被用于获取数据。|
+|**HEAD**|`HEAD`方法请求一个与`GET`请求的响应相同的响应，但没有响应体。|
+|**POST**|`POST`方法用于将实体提交到指定的资源，通常导致在服务器上的状态变化或副作用。|
+|**PUT**|`PUT`方法用请求有效载荷替换目标资源的所有当前表示。|
+|**DELETE**|`DELETE`方法删除指定的资源。|
+|**CONNECT**|`CONNECT`方法建立一个到由目标资源标识的服务器的隧道。|
+|**OPTIONS**|`OPTIONS`方法用于描述目标资源的通信选项。|
+|**TRACE**|`TRACE`方法沿着到目标资源的路径执行一个消息环回测试。|
+|**PATCH**|`PATCH`方法用于对资源应用部分修改。|
 
 
 ## <a id="computer">计算机组成原理</a>
@@ -278,4 +289,12 @@
 - 过程
 
 ## <a id="web">web速记</a>
-- 
+- location接口(部分)
+
+    |属性|语义|
+    |:-:|:-:|
+    |href|包含整个 URL 的一个DOMString|
+    |host|包含了域名的一个DOMString，可能在该串最后带有一个":"并跟上 URL 的端口号|
+    |hostname|包含 URL 域名的一个DOMString|
+    |port|包含端口号的一个DOMString|
+    |pathname|包含 URL 中路径部分的一个DOMString，开头有一个/|
